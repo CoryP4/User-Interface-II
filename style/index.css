@@ -8,6 +8,7 @@ header {
     margin:0;
     padding:0; 
     width:100vw;
+    font-family: 'architects daughter', serif;
 }
 
 .header {
@@ -39,6 +40,8 @@ header {
     width: 10rem;
     font-size: 1.4rem;
     border:2px solid black;
+    text-decoration: none;
+    color:black;
 }
 
 .header p {
@@ -100,4 +103,6 @@ footer {
     border:2px solid black;
     width: 10rem;
     background-color: white;
+    text-decoration: none;
+    color:black;
 }
