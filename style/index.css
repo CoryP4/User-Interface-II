@@ -4,6 +4,12 @@
 
 /*header start*/
 
+header {
+    margin:0;
+    padding:0; 
+    width:100vw;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -12,33 +18,86 @@
 }
 
 .header h1 {
-    margin1% 0;
+    margin:2%;
+    font-size: 4rem;
 }
-.nav1 {
 
+.header h2 {
+    margin:2%;
+    font-size: 4rem;
 }
-.nav1 a {
+
+.nav1 {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    padding:1%;
-    width: 50%;
+}
+
+.nav1 a {
+    display: block;
+    text-align: center;
+    padding:2% 3%;
+    width: 10rem;
+    font-size: 1.4rem;
+    border:2px solid black;
+}
+
+.header p {
+    margin:0 5%;
+    margin-bottom:2%;
 }
 
 /*header end*/
 
-
-
 /*big image start*/
 
+.big-image {
+    display: flex;
+    overflow: hidden;
+}
 
+.big-image img {
+    width:100%;
+    height:40vh;
+    border:1px solid black;
+}
 
 /*big image end*/
 
-
-
 /*4pic start*/
 
+.pic {
+    display: flex;
+    justify-content: stretch;
+    align-content: center;
+}
+.pic img {
+    height: 40vh;
+    width: 20vw;
+    border:1px solid rgb(0, 0, 0);
+    Margin-right:10px;
+    margin-top:1%;
+    margin-bottom: 1%;
+}
 
+.picpara {
+    display: flex;
+    justify-content: center;
+    margin: auto 2%;
+}
 
 /*4pic end*/
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2.5%;
+    background-color: lightgrey;
+}
+
+.footer nav a {
+    display: block;
+    text-align: center;
+    padding: 2% 3%;
+    border:2px solid black;
+    width: 10rem;
+    background-color: white;
+}
